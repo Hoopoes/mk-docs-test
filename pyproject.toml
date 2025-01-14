@@ -1,0 +1,18 @@
+[project]
+name = "CodersInventory"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "umar-anzar", email = "omer.anzar2@gmail.com"}
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+mkdocs-material = "^9.5.49"
+
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
